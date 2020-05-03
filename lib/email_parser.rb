@@ -9,7 +9,7 @@ class EmailAddressParser
     def parse
         trying = []
         email = email_addresses.split(" ")
-        addresses = email.collect do |mail| 
+        email.collect do |mail| 
             trying << mail.chomp(",")
         end
         trying.uniq
