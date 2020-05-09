@@ -12,7 +12,8 @@ class EmailAddressParser
   end
 
   def parse
-    csv_email = @email.scan(/\w+@\w+.com/) 
+    csv_email = @email.scan(/\w+@\w+.com/)
+    csv_email.uniq
 #    binding.pry
   end
 
