@@ -4,7 +4,7 @@
 
 - Practice defining a class and using an `attr_accessor` to create setter and
   getter methods
-- Use TDD to write working code
+- Use Test Driven Development (TDD) to write working code
 
 ## Description
 
